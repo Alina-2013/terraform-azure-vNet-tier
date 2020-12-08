@@ -1,4 +1,4 @@
-Copy paste the following code
+### Copy paste the following code
 
 module "three_tier" {
   source                = "Alina-2013/vNet-tier/azure"
@@ -34,7 +34,9 @@ module "three_tier" {
   }
 }
 
-Copy paste the following code
+```
+
+### Copy paste the following code
 
 output "VM1" {
   value = "${module.three_tier.VM1} 

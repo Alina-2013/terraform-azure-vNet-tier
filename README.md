@@ -1,5 +1,5 @@
 ### Copy paste the following code
-
+```
 module "three_tier" {
   source                = "Alina-2013/vNet-tier/azure"
   private_subnet1_range = "10.0.1.0/24"
